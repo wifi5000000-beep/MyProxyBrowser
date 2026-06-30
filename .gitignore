@@ -1,0 +1,27 @@
+# Gradle files
+.gradle/
+build/
+*.jar
+*.apk
+
+# Local configuration file
+local.properties
+
+# Android Studio files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Kotlin
+.kotlin/
+
+# Generated files
+/app/src/main/gen/
+
+# Proguard
+proguard_logs/

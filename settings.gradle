@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolution {
+    eachArtifact {
+        goOffline false
+    }
+}
+repositories {
+    google()
+    mavenCentral()
+}
+rootProject.name = "AntiDetectBrowser"
+include ':app'
